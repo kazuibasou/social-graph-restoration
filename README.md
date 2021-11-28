@@ -54,7 +54,7 @@ The file should be placed in `social-graph-restoration/data/`.
 In the file, each line contains two integers separated by a half-width space, where each integer represents the node's index.
 The file format follows a common format for network data.
 
-### Restoring the original graph from the sampling list obtained by a simple random walk
+### Restoring the original graph
 
 Go to `social-graph-restoration/cpp/bin/` and run the following command:
 
@@ -82,7 +82,7 @@ The format of the output file is the same as that of the input file.
 - The generation process for *syn10000* graph will finish in a few tens of seconds.
 However, the scalability of our method to the graph size (i.e., the number of edges) is not high at present.
 For example, our method implemented in C++ took approximately 12 hours to restore the YouTube graph with three million edges using 1\% queried nodes (see [1] for details).
-- All the simulation code to reproduce our experimental results shown in the paper is available at [<a href="https://www.dropbox.com/sh/qrtxb1p7ifhd58f/AADBseKsUzVqPge2ZEvtvDKNa?dl=0">here</a>].
+- All the simulation code to reproduce our experimental results shown in the paper is available at <a href="https://www.dropbox.com/sh/qrtxb1p7ifhd58f/AADBseKsUzVqPge2ZEvtvDKNa?dl=0">here</a>.
 
 ## Reference
 
