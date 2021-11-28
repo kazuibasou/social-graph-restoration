@@ -70,7 +70,7 @@ The number of nodes to be queried (see [1] for the definition of querying a node
 The number must be not less than 1 and not more than N, where N denotes the number of nodes in the original graph.
 
 #### Example
-To restore the graph named `syn10000` via a simple random walk with the length of 1000, go to `social-graph-restoration/cpp/bin/` and run the following command:
+To restore the graph named `syn10000` using 1000 queried nodes via a simple random walk, go to `social-graph-restoration/cpp/bin/` and run the following command:
 
 	./main syn10000 1000
 
