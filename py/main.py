@@ -38,7 +38,7 @@ def read_graph(graphname):
 
     print('Read ' + str(graphname) + " graph.")
     print("Number of nodes: " + str(G.N))
-    print("Number of edges: " + str(G.M) + "\n")
+    print("Number of edges: " + str(G.M))
 
     return G
 
@@ -57,7 +57,7 @@ def write_edge_list(graphname,genG):
 
     f.close()
 
-    print("Wrote the generated graph at social-graph-restoration/gen_graph/.\n")
+    print("Wrote the generated graph at social-graph-restoration/gen_graph/.")
 
     return 0
 
