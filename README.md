@@ -4,9 +4,9 @@ This repository provides C++ and Python codes of the method proposed in
 
 Social Graph Restoration via Random Walk Sampling. Kazuki Nakajima and Kazuyuki Shudo. 38th IEEE International Conference on Data Engineering (ICDE 2022). 2022. [<a href="https://doi.org/10.1109/ICDE53745.2022.00065">paper</a>] [<a href="http://arxiv.org/abs/2111.11966">arXiv</a>]
 
-Social graph restoration is a problem in which we attempt to generate a graph whose structural properties are as close as possible to the corresponding properties of the original graph from the small sample obtained using a crawling method. 
-The generated graph enables us to estimate the local and global structural properties and predict the visual representation of the original graph.
-In this paper, we proposed a method for restoring the original social graph from the small sample obtained by a random walk.
+Social graph restoration is a problem in which we attempt to generate a graph whose structural properties are as close as possible to those of the original graph from a small sample obtained by crawling.
+In this paper, we proposed a method using a random walk for the problem.
+The proposed method may enable us to accurately estimate local/global structural properties and visual representation of the original social graph with limited data access.
 
 The Python code is easy to use and should help you to reproduce our method.
 The C++ code is much faster than the Python code.
@@ -134,7 +134,7 @@ The format of the output file is the same as that of the input file.
 - The generation process for *syn10000* graph will finish in a few tens of seconds.
 However, the scalability of our method to the graph size (i.e., the number of edges) is not high at present.
 For example, our method implemented in C++ took approximately 12 hours to restore the YouTube graph with three million edges using 1\% queried nodes (see [1] for details).
-- All the simulation code to reproduce our experimental results shown in the paper is available at <a href="https://www.dropbox.com/sh/qrtxb1p7ifhd58f/AADBseKsUzVqPge2ZEvtvDKNa?dl=0">here</a>.
+- All the C++ code to reproduce the experimental results shown in our paper [1] is available upon request.
 
 # Reference
 
