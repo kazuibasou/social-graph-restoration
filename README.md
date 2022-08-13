@@ -2,7 +2,7 @@
 
 This repository provides C++ and Python codes of the method proposed in 
 
-Social Graph Restoration via Random Walk Sampling. Kazuki Nakajima and Kazuyuki Shudo. 38th IEEE International Conference on Data Engineering (ICDE 2022), 2022. (to appear) [<a href="http://arxiv.org/abs/2111.11966">arXiv</a>]
+Social Graph Restoration via Random Walk Sampling. Kazuki Nakajima and Kazuyuki Shudo. 38th IEEE International Conference on Data Engineering (ICDE 2022). 2022. [<a href="https://doi.org/10.1109/ICDE53745.2022.00065">paper</a>] [<a href="http://arxiv.org/abs/2111.11966">arXiv</a>]
 
 Social graph restoration is a problem in which we attempt to generate a graph whose structural properties are as close as possible to the corresponding properties of the original graph from the small sample obtained using a crawling method. 
 The generated graph enables us to estimate the local and global structural properties and predict the visual representation of the original graph.
@@ -138,7 +138,7 @@ For example, our method implemented in C++ took approximately 12 hours to restor
 
 # Reference
 
-[1] Social Graph Restoration via Random Walk Sampling. Kazuki Nakajima and Kazuyuki Shudo. 38th IEEE International Conference on Data Engineering (ICDE 2022), 2022. (to appear) [<a href="http://arxiv.org/abs/2111.11966">arXiv</a>]
+[1] Social Graph Restoration via Random Walk Sampling. Kazuki Nakajima and Kazuyuki Shudo. 38th IEEE International Conference on Data Engineering (ICDE 2022). 2022. [<a href="https://doi.org/10.1109/ICDE53745.2022.00065">paper</a>] [<a href="http://arxiv.org/abs/2111.11966">arXiv</a>]
 
 # License
 
